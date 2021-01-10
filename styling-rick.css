@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: cyan;
+    
+      
+}
+
+
+.main_div {
+    /* position: relative; */
+    margin: 20px auto;
+    background-color: black;
+    width: 1000px;
+    height: 600px;
+    padding: 45px;
+
+}
+
+.picture-container {
+    position: relative;
+    margin: 20px auto;    
+    height: 400px;
+    width: 600px;
+    border: 6px solid white;
+}
+
+
+.picture-container img {
+    display: block;
+    object-fit: cover; 
+    width: 100%;
+    height: 100%; 
+
+}
+
+
+.name {
+    position: absolute;
+    border:6px solid rgb(97, 144, 97);
+    border-radius: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(211, 211, 211, 0.938);
+    width: 155px;
+    text-align: left;
+    padding: 5px 0 10px 20px;
+    
+}
+
+/* positioning the name-tags relative to the image*/
+
+.rick {
+    top: 50px;
+    right: -30px;
+}
+
+.sanchez {
+    top: 135px;
+    right: -30px;
+}
+
+
+
